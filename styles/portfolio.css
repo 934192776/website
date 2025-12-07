@@ -71,9 +71,9 @@ p {
   margin-right: 20px;
 }
 
-  .about-page {
+  .about-page 
   .pink-bg-container
-  .profile 
+  .profile {
     background: transparent;
     border:none;
   }
@@ -99,7 +99,7 @@ p {
 
 .hero {
   padding: 10px;
-  flex:3;
+  flex:0 0 580px;
   background: #ffffff;
   border: 1px solid #e8e8e8;
   border-radius: 20px;
