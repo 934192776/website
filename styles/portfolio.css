@@ -423,8 +423,11 @@ nav li.active a {
 
 ....................................
 
+.intro {
+  text-align: center;
+}
 .container { 
-  max-width: 1100px; 
+  max-width: 1000px; 
   margin: auto; 
   padding: 2rem; 
 }
@@ -432,39 +435,48 @@ nav li.active a {
 /* GRID FOR IMAGES */
 .grid-2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px 40px;
-  margin-bottom: 50px;
-  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 80px;
+  gap:38px;
+  background: rgba(255,255,255,0.03);
+  border: 0.1px solid rgba(120, 5, 243, 0.08);
+  padding: 2rem;
+  border-radius: 24px;
+  transition: .3s ease;
 }
-
+.video-grid,
+.grid-3,
+.grid-2 :hover {
+  transform: translateY(-4px);
+  border-color: rgba(242, 10, 10, 0.2);
+}
 .grid-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px 40px;
-  margin-bottom: 50px;
-  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 70px;
+  background: rgba(255,255,255,0.03);
+  border: 0.1px solid rgba(120, 5, 243, 0.08);
+  padding: 2rem;
+  border-radius: 24px;
+  transition: .3s ease;
 }
-
-.grid-2 img, .grid-3 img {
-  width: 100%;
-  max-width: 400px;  
-  height: 520px;   
-  border-radius: 10px;
+.grid-2 img, 
+.grid-3 img {
+  width: 100%; 
+  height: auto;   
+  border-radius: 20px;
   object-fit: cover; 
 }
 
+
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 两列 */
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 70px;
 }
 
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 永远两列 */
-  gap: 1rem;
-}
 —————————
 
 
