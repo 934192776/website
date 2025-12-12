@@ -444,7 +444,7 @@ nav li.active a {
   border-radius: 24px;
   transition: .3s ease;
 }
-.video-grid,
+
 .grid-3,
 .grid-2 :hover {
   transform: translateY(-4px);
@@ -464,17 +464,10 @@ nav li.active a {
 .grid-2 img, 
 .grid-3 img {
   width: 100%; 
-  height: auto;   
+  height: 100%;   
   border-radius: 20px;
   object-fit: cover; 
-}
-
-
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 32px;
-  margin-bottom: 70px;
+  display: block;
 }
 
 —————————
