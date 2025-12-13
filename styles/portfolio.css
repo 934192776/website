@@ -640,4 +640,22 @@ footer .social-links a:hover {
   .hero {
     width: 100% !important;
   }
+
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr !important; 
+    gap: 24px;
+    padding: 1rem;
+  }
+
+  .grid img {
+    transform: scale(1);
+  }
+
+  .project-video {
+    height: auto; 
+    max-height: 420px;
+    object-fit: cover;
+  }
+
 }
