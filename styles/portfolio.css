@@ -340,6 +340,20 @@ p {
   background-color: #e0e1f9;
 }
 
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 44px;
+  border-radius: 20px;
+  background-color: #f6e1f6;
+  gap:18px;
+  color:rgb(100, 99, 99);
+  margin: 30px auto;  
+  max-width: 900px;
+  width:90%;
+}
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
