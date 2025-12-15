@@ -70,7 +70,6 @@ p {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .about-page 
 .pink-bg-container
 .profile {
@@ -150,6 +149,7 @@ p {
   display: inline-flex;
   align-items: center;
 }
+
 
 .resume-card {
   background-color: white;
@@ -458,7 +458,7 @@ nav li.active a {
 }
 .grid-3 :hover {
   transform: translateY(-4px);
-  border-color: rgba(5, 4, 4, 0.2);
+  border-color: rgba(71, 16, 16, 0.2);
 }
 
 .grid-3 {
@@ -487,8 +487,6 @@ nav li.active a {
   object-fit: cover;
   border-radius: 24px;
 }
-—————————
-
 
 footer {
   margin: 60px 0;
