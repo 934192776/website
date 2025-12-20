@@ -586,13 +586,16 @@ footer .social-links a:hover {
   h3 {
     font-size: 26px;
   }
-  .top-nav ul {
+   .top-nav ul {
     display: flex;
-    gap: 8px;
-    padding: 6px 8px;
     flex-wrap: nowrap;
     justify-content: center;
- }
+    gap: 8px;
+    padding: 0; 
+    box-shadow: none;   
+    border-radius: 0;   
+    background: none;
+  }
   .top-nav a {
     font-size: 14px;  
   }
