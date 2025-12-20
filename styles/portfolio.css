@@ -587,15 +587,25 @@ footer .social-links a:hover {
     font-size: 26px;
   }
   .top-nav ul {
-    gap: 12px;
-    padding: 8px 12px;
-    flex-wrap: wrap;
+    display: flex;
+    gap: 8px;
+    padding: 6px 8px;
+    flex-wrap: nowrap;
     justify-content: center;
-}
-
-.top-nav li {
+ }
+  .top-nav a {
+    font-size: 14px;  
+  }
+  .site-container {
+    padding: 1rem; 
+  }
+  .top-nav li {
    white-space: nowrap;
-}
+   flex-shrink: 0;
+  }
+  nav {
+    padding: 6px 10px; 
+  }
   .content {
     text-align: center;
     padding: 0;
