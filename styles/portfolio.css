@@ -750,33 +750,19 @@ footer .social-links a:hover {
   footer nav li {
     white-space: nowrap; 
   }
-  .about-page .pink-bg-container {
-    width: 100% !important;
-    max-width: 100% !important;
-    align-items: stretch !important; /* ⭐ 最关键 */
-    text-align: left;
-  }
-  .about-page .hero {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 16px 18px !important;  /* 缩小左右 padding */
-    margin: 0 auto;
-  }
-  .about-page .hero p,
-  .about-page .hero h1 {
-    text-align: left;
-  }
 
-  /* ④ WHAT I DO 图标容器：允许换行 */
-  .about-page .hero .d-flex {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  .resume-container .contact {
+    max-width: 100% !important;
+    width: 100%;
+    padding: 20px 16px; 
   }
-
-  /* ⑤ 单个图标：限制最大宽度，避免变成“细柱” */
-  .about-page .intro-text {
-    max-width: 140px;
-    text-align: center;
+  .resume-container {
+    width: 100%;
+    padding: 0;
+  }
+  .resume-container .contact img.logo {
+    max-width: 120px;
+    height: auto;
+    margin: 0 auto 12px;
   }
 }
