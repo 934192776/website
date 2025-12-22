@@ -693,7 +693,7 @@ footer .social-links a:hover {
     display: none !important;
   }
   .profile-container .resume-card[style*="background:none"] {
-  margin-top: -50px !important;
+    margin-top: -50px !important;
   }
   .about-page .pink-bg-container {
     width: 100% !important;
@@ -707,7 +707,11 @@ footer .social-links a:hover {
     width: 100% !important;
     text-align: center !important;
   }
- 
+
+  .about-page .do-link .hero > div {
+    gap: 10px !important; 
+  }
+
   .hero-info,
   .into-text,
   .hero {
