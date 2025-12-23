@@ -769,4 +769,27 @@ footer .social-links a:hover {
     height: auto;
     margin: 0 auto 12px;
   }
+  .contact-box {
+    display: flex;
+    flex-direction: column;   /* 关键：改为上下排列 */
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding: 20px 16px;       /* 尺寸变小 */
+  }
+  .contact-text h2 {
+    font-size: 22px;
+  }
+  .intro-text p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .do-link .hero {
+    background: transparent;
+    box-shadow: none !important;
+  }
+  .intro-text img {
+    width: 80px !important;
+  }
+  
 }
