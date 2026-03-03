@@ -72,8 +72,8 @@ p {
 }
 
 .content h1 { 
-  font-size: 44px;
-  line-height: 80px;
+  font-size: 25px;
+  color: rgb(153, 56, 188);
 }
 
 .content h2 {
